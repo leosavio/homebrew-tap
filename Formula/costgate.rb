@@ -5,7 +5,6 @@
 class Costgate < Formula
   desc "Offline, fail-closed monthly AWS cost projection of terraform/tofu plans"
   homepage "https://github.com/leosavio/costgate"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
