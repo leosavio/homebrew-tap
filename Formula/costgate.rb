@@ -9,23 +9,23 @@ class Costgate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/leosavio/costgate/releases/download/v0.2.0/costgate_0.2.0_darwin_arm64.tar.gz"
-      sha256 "b2d072945bdcfaac00839fd62feba66da38fc5030f6a7416f33dc011e5e229f1"
+      url "https://github.com/leosavio/costgate/releases/download/v0.3.0/costgate_0.3.0_darwin_arm64.tar.gz"
+      sha256 "a94ced2a91f9ce0ab178120a82e762a268f41e7f9c43b6658b295b9cd06115e8"
     end
     on_intel do
-      url "https://github.com/leosavio/costgate/releases/download/v0.2.0/costgate_0.2.0_darwin_amd64.tar.gz"
-      sha256 "00d30347b735ebb76dfe06d453244272a83f74491abed236619cf2fabc9a66d3"
+      url "https://github.com/leosavio/costgate/releases/download/v0.3.0/costgate_0.3.0_darwin_amd64.tar.gz"
+      sha256 "ba36246f023205d8ac315e0cadb89885566f77618690e9f93e5b952f29cdb2e2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/leosavio/costgate/releases/download/v0.2.0/costgate_0.2.0_linux_arm64.tar.gz"
-      sha256 "5334e277cb0bb21ac33754cabaa691b2bf41142211e5d312c82cee1312303244"
+      url "https://github.com/leosavio/costgate/releases/download/v0.3.0/costgate_0.3.0_linux_arm64.tar.gz"
+      sha256 "ff269537b79845afd4ccfc0287632655cf71de56bbd195f229224c8c93118b58"
     end
     on_intel do
-      url "https://github.com/leosavio/costgate/releases/download/v0.2.0/costgate_0.2.0_linux_amd64.tar.gz"
-      sha256 "ea2535ddfd61865dd1a9e83a4a34e20a2f4edb6e9544671bb5e672c1426bedd4"
+      url "https://github.com/leosavio/costgate/releases/download/v0.3.0/costgate_0.3.0_linux_amd64.tar.gz"
+      sha256 "c0ea6db7cbd80e7dfa3a5ec692b7cd33b27784d61a6b91acb65e82fbb3bac048"
     end
   end
 
