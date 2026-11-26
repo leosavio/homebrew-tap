@@ -9,23 +9,23 @@ class Kubestrata < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.0/kubestrata_0.1.0_darwin_arm64.tar.gz"
-      sha256 "187708b9a0d1210faf454c4120394be27549667a19e291d8d3350fd45ec43583"
+      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.1/kubestrata_0.1.1_darwin_arm64.tar.gz"
+      sha256 "01036d0356b16946da4aeca73dd2d9efe7811b675bb63e948c32c3736318402a"
     end
     on_intel do
-      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.0/kubestrata_0.1.0_darwin_amd64.tar.gz"
-      sha256 "bc011b91d64173c153e97a1a75bb6e17fce9306d9cd2aaea66fc5a670bb53c90"
+      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.1/kubestrata_0.1.1_darwin_amd64.tar.gz"
+      sha256 "e693623fe8ab9596eb40e6013776d2874cee237ab42986f48e58bc80008a89ce"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.0/kubestrata_0.1.0_linux_arm64.tar.gz"
-      sha256 "bc901576623f74aec389b05675ee3aef188e375d2d89a2b8cd891fc93ff8c476"
+      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.1/kubestrata_0.1.1_linux_arm64.tar.gz"
+      sha256 "f78e024e7b7e3782c9ac63863b3ebe454ee3b47ae67bb7041086bb8b2737cbda"
     end
     on_intel do
-      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.0/kubestrata_0.1.0_linux_amd64.tar.gz"
-      sha256 "a0a14b93b8d858a12e023c58c54f87b30970fbd1a461038d543e80c4b58bcba6"
+      url "https://github.com/kubestrata/kubestrata/releases/download/v0.1.1/kubestrata_0.1.1_linux_amd64.tar.gz"
+      sha256 "5c469c68728148b20c4961b366155fc35d9f032861a52bb8df5e4bf3d69199e3"
     end
   end
 
